@@ -1,0 +1,427 @@
+<api api-source="JavaTypeSystem">
+  <package name="com.github.clans.fab" jni-name="com/github/clans/fab">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/github/clans/fab/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.github.clans.fab.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.github.clans.fab&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="10604" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.6.4&quot;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.ImageButton" extends-generic-aware="android.widget.ImageButton" jni-extends="Landroid/widget/ImageButton;" final="false" name="FloatingActionButton" static="false" visibility="public" jni-signature="Lcom/github/clans/fab/FloatingActionButton;">
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionButton" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionButton" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionButton" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionButton" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionButton" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionButton" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+        <parameter name="defStyleAttr" type="int" jni-type="I" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionButton" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;II)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionButton" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+        <parameter name="defStyleAttr" type="int" jni-type="I" />
+        <parameter name="defStyleRes" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getButtonSize" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getColorDisabled" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getColorNormal" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getColorPressed" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getColorRipple" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIconDrawable" jni-signature="()Landroid/graphics/drawable/Drawable;" bridge="false" native="false" return="android.graphics.drawable.Drawable" jni-return="Landroid/graphics/drawable/Drawable;" static="false" synchronized="false" synthetic="false" visibility="protected" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLabelText" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLabelVisibility" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMax" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="true" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getProgress" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="true" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getShadowColor" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getShadowRadius" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getShadowXOffset" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getShadowYOffset" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasShadow" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="hide" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideButtonInMenu" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideProgress" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isHidden" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isProgressBackgroundShown" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="true" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" jni-signature="(Landroid/os/Parcelable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="state" type="android.os.Parcelable" jni-type="Landroid/os/Parcelable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" jni-signature="()Landroid/os/Parcelable;" bridge="false" native="false" return="android.os.Parcelable" jni-return="Landroid/os/Parcelable;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setButtonSize" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="size" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorDisabled" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorDisabledResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorNormal" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorNormalResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorPressed" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorPressedResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorRipple" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorRippleResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setElevationCompat" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="elevation" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHideAnimation" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="hideAnimation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIndeterminate" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="indeterminate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLabelColors" jni-signature="(III)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorNormal" type="int" jni-type="I" />
+        <parameter name="colorPressed" type="int" jni-type="I" />
+        <parameter name="colorRipple" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLabelText" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLabelTextColor" jni-signature="(Landroid/content/res/ColorStateList;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colors" type="android.content.res.ColorStateList" jni-type="Landroid/content/res/ColorStateList;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLabelTextColor" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLabelVisibility" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="visibility" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMax" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="max" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setProgress" jni-signature="(IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="progress" type="int" jni-type="I" />
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowColor" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowColorResource" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowRadius" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="shadowRadiusDp" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowRadius" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dimenResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowXOffset" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="shadowXOffsetDp" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowXOffset" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dimenResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowYOffset" jni-signature="(F)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="shadowYOffsetDp" type="float" jni-type="F" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShadowYOffset" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dimenResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShowAnimation" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="showAnimation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShowProgressBackground" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="show" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setShowShadow" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="show" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showButtonInMenu" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toggle" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <field deprecated="not deprecated" final="true" name="SIZE_MINI" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="SIZE_NORMAL" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.ViewOutlineProvider" extends-generic-aware="android.view.ViewOutlineProvider" jni-extends="Landroid/view/ViewOutlineProvider;" final="false" name="FloatingActionButton.1" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOutline" jni-signature="(Landroid/view/View;Landroid/graphics/Outline;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="view" type="android.view.View" jni-type="Landroid/view/View;" />
+        <parameter name="outline" type="android.graphics.Outline" jni-type="Landroid/graphics/Outline;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.GestureDetector.SimpleOnGestureListener" extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener" jni-extends="Landroid/view/GestureDetector$SimpleOnGestureListener;" final="false" name="FloatingActionButton.2" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$2;" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionButton.3" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$3;">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener" jni-type="Landroid/view/View$OnClickListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionButton.4" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$4;">
+      <implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener" jni-type="Landroid/view/animation/Animation$AnimationListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.graphics.drawable.ShapeDrawable" extends-generic-aware="android.graphics.drawable.ShapeDrawable" jni-extends="Landroid/graphics/drawable/ShapeDrawable;" final="false" name="FloatingActionButton.CircleDrawable" static="false" visibility="private" jni-signature="Lcom/github/clans/fab/FloatingActionButton$CircleDrawable;" />
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" jni-extends="Landroid/view/View$BaseSavedState;" final="false" name="FloatingActionButton.ProgressSavedState" static="true" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;">
+      <field deprecated="not deprecated" final="true" name="CREATOR" jni-signature="Landroid/os/Parcelable$Creator;" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.github.clans.fab.FloatingActionButton.ProgressSavedState&gt;" visibility="public" volatile="false" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="FloatingActionButton.ProgressSavedState.1" static="true" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState$1;">
+      <implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.github.clans.fab.FloatingActionButton.ProgressSavedState&gt;" jni-type="Landroid/os/Parcelable$Creator&lt;Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;&gt;;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" jni-signature="(Landroid/os/Parcel;)Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;" bridge="false" native="false" return="android.view.View.BaseSavedState" jni-return="Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="android.os.Parcel" jni-type="Landroid/os/Parcel;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newArray" jni-signature="(I)[Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;" bridge="false" native="false" return="com.github.clans.fab.FloatingActionButton.ProgressSavedState[]" jni-return="[Lcom/github/clans/fab/FloatingActionButton$ProgressSavedState;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="size" type="int" jni-type="I" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.graphics.drawable.Drawable" extends-generic-aware="android.graphics.drawable.Drawable" jni-extends="Landroid/graphics/drawable/Drawable;" final="false" name="FloatingActionButton.Shadow" static="false" visibility="private" jni-signature="Lcom/github/clans/fab/FloatingActionButton$Shadow;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="draw" jni-signature="(Landroid/graphics/Canvas;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="canvas" type="android.graphics.Canvas" jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOpacity" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAlpha" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="alpha" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorFilter" jni-signature="(Landroid/graphics/ColorFilter;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="cf" type="android.graphics.ColorFilter" jni-type="Landroid/graphics/ColorFilter;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.ViewGroup" extends-generic-aware="android.view.ViewGroup" jni-extends="Landroid/view/ViewGroup;" final="false" name="FloatingActionMenu" static="false" visibility="public" jni-signature="Lcom/github/clans/fab/FloatingActionMenu;">
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionMenu" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionMenu" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionMenu" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionMenu" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="FloatingActionMenu" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" bridge="false" static="false" type="com.github.clans.fab.FloatingActionMenu" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+        <parameter name="defStyleAttr" type="int" jni-type="I" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addMenuButton" jni-signature="(Lcom/github/clans/fab/FloatingActionButton;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fab" type="com.github.clans.fab.FloatingActionButton" jni-type="Lcom/github/clans/fab/FloatingActionButton;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addMenuButton" jni-signature="(Lcom/github/clans/fab/FloatingActionButton;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fab" type="com.github.clans.fab.FloatingActionButton" jni-type="Lcom/github/clans/fab/FloatingActionButton;" />
+        <parameter name="index" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAnimationDelayPerItem" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIconToggleAnimatorSet" jni-signature="()Landroid/animation/AnimatorSet;" bridge="false" native="false" return="android.animation.AnimatorSet" jni-return="Landroid/animation/AnimatorSet;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuButtonColorNormal" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuButtonColorPressed" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuButtonColorRipple" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuButtonLabelText" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMenuIconView" jni-signature="()Landroid/widget/ImageView;" bridge="false" native="false" return="android.widget.ImageView" jni-return="Landroid/widget/ImageView;" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideMenu" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hideMenuButton" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isAnimated" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIconAnimated" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isMenuButtonHidden" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isMenuHidden" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isOpened" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLayout" jni-signature="(ZIIII)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="changed" type="boolean" jni-type="Z" />
+        <parameter name="l" type="int" jni-type="I" />
+        <parameter name="t" type="int" jni-type="I" />
+        <parameter name="r" type="int" jni-type="I" />
+        <parameter name="b" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="open" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeAllMenuButtons" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeMenuButton" jni-signature="(Lcom/github/clans/fab/FloatingActionButton;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fab" type="com.github.clans.fab.FloatingActionButton" jni-type="Lcom/github/clans/fab/FloatingActionButton;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAnimated" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animated" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAnimationDelayPerItem" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animationDelayPerItem" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setClosedOnTouchOutside" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="close" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIconAnimated" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animated" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIconAnimationCloseInterpolator" jni-signature="(Landroid/view/animation/Interpolator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="closeInterpolator" type="android.view.animation.Interpolator" jni-type="Landroid/view/animation/Interpolator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIconAnimationInterpolator" jni-signature="(Landroid/view/animation/Interpolator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="interpolator" type="android.view.animation.Interpolator" jni-type="Landroid/view/animation/Interpolator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIconAnimationOpenInterpolator" jni-signature="(Landroid/view/animation/Interpolator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="openInterpolator" type="android.view.animation.Interpolator" jni-type="Landroid/view/animation/Interpolator;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIconToggleAnimatorSet" jni-signature="(Landroid/animation/AnimatorSet;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="toggleAnimatorSet" type="android.animation.AnimatorSet" jni-type="Landroid/animation/AnimatorSet;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorNormal" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorNormalResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorPressed" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorPressedResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorRipple" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="color" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonColorRippleResId" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="colorResId" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonHideAnimation" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="hideAnimation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonLabelText" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMenuButtonShowAnimation" jni-signature="(Landroid/view/animation/Animation;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="showAnimation" type="android.view.animation.Animation" jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnMenuButtonClickListener" jni-signature="(Landroid/view/View$OnClickListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="clickListener" type="android.view.View.OnClickListener" jni-type="Landroid/view/View$OnClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnMenuButtonLongClickListener" jni-signature="(Landroid/view/View$OnLongClickListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="longClickListener" type="android.view.View.OnLongClickListener" jni-type="Landroid/view/View$OnLongClickListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnMenuToggleListener" jni-signature="(Lcom/github/clans/fab/FloatingActionMenu$OnMenuToggleListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.github.clans.fab.FloatingActionMenu.OnMenuToggleListener" jni-type="Lcom/github/clans/fab/FloatingActionMenu$OnMenuToggleListener;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showMenu" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showMenuButton" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toggle" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toggleMenu" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toggleMenuButton" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animate" type="boolean" jni-type="Z" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.1" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$1;">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener" jni-type="Landroid/animation/ValueAnimator$AnimatorUpdateListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" jni-signature="(Landroid/animation/ValueAnimator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.ValueAnimator" jni-type="Landroid/animation/ValueAnimator;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.2" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$2;">
+      <implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener" jni-type="Landroid/animation/ValueAnimator$AnimatorUpdateListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" jni-signature="(Landroid/animation/ValueAnimator;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="animation" type="android.animation.ValueAnimator" jni-type="Landroid/animation/ValueAnimator;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.3" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$3;">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener" jni-type="Landroid/view/View$OnClickListener;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" jni-signature="(Landroid/view/View;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="android.view.View" jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.4" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$4;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.5" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$5;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.6" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$6;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.7" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$7;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.8" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$8;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="FloatingActionMenu.9" static="false" visibility="" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$9;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public" />
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="FloatingActionMenu.OnMenuToggleListener" static="true" visibility="public" jni-signature="Lcom/github/clans/fab/FloatingActionMenu$OnMenuToggleListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onMenuToggle" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z" />
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.TextView" extends-generic-aware="android.widget.TextView" jni-extends="Landroid/widget/TextView;" final="false" name="Label" static="false" visibility="public" jni-signature="Lcom/github/clans/fab/Label;">
+      <constructor deprecated="not deprecated" final="false" name="Label" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.github.clans.fab.Label" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Label" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" bridge="false" static="false" type="com.github.clans.fab.Label" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Label" jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" bridge="false" static="false" type="com.github.clans.fab.Label" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" />
+        <parameter name="attrs" type="android.util.AttributeSet" jni-type="Landroid/util/AttributeSet;" />
+        <parameter name="defStyleAttr" type="int" jni-type="I" />
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.ViewOutlineProvider" extends-generic-aware="android.view.ViewOutlineProvider" jni-extends="Landroid/view/ViewOutlineProvider;" final="false" name="Label.1" static="false" visibility="" jni-signature="Lcom/github/clans/fab/Label$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOutline" jni-signature="(Landroid/view/View;Landroid/graphics/Outline;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="view" type="android.view.View" jni-type="Landroid/view/View;" />
+        <parameter name="outline" type="android.graphics.Outline" jni-type="Landroid/graphics/Outline;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.GestureDetector.SimpleOnGestureListener" extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener" jni-extends="Landroid/view/GestureDetector$SimpleOnGestureListener;" final="false" name="Label.2" static="false" visibility="" jni-signature="Lcom/github/clans/fab/Label$2;" />
+    <class abstract="false" deprecated="not deprecated" extends="android.graphics.drawable.Drawable" extends-generic-aware="android.graphics.drawable.Drawable" jni-extends="Landroid/graphics/drawable/Drawable;" final="false" name="Label.Shadow" static="false" visibility="private" jni-signature="Lcom/github/clans/fab/Label$Shadow;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="draw" jni-signature="(Landroid/graphics/Canvas;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="canvas" type="android.graphics.Canvas" jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOpacity" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAlpha" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="alpha" type="int" jni-type="I" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setColorFilter" jni-signature="(Landroid/graphics/ColorFilter;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="cf" type="android.graphics.ColorFilter" jni-type="Landroid/graphics/ColorFilter;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Util" static="false" visibility="" jni-signature="Lcom/github/clans/fab/Util;" />
+  </package>
+</api>

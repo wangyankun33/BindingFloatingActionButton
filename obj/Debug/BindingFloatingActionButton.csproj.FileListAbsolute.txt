@@ -1,0 +1,10 @@
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\bin\Debug\BindingFloatingActionButton.dll
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\bin\Debug\BindingFloatingActionButton.pdb
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\__AndroidLibraryProjects__.zip
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\BindingFloatingActionButton.csproj.AssemblyReference.cache
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\stamp\_BuildLibraryImportsCache.stamp
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\class-parse.rsp
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\BindingFloatingActionButton.csproj.CoreCompileInputs.cache
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\BindingFloatingActionButton.dll
+F:\TestPro\WMSAndroid\BindingFloatingActionButton\obj\Debug\BindingFloatingActionButton.pdb
